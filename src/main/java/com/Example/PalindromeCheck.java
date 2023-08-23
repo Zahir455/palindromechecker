@@ -1,8 +1,9 @@
-package com.Sparta;
+package com.Example;
 
-public class Pali1 {
-    boolean isPalindrome(String x){
-        String noSpaces = x.replaceAll("\\s", "").toLowerCase();
+public class PalindromeCheck {
+    public boolean isPalindrome(String text){
+
+        String noSpaces = text.replaceAll("\\s", "").toLowerCase();
 
         int length = noSpaces.length();
 

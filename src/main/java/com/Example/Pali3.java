@@ -1,4 +1,4 @@
-package com.Sparta;
+package com.Example;
 
 public class Pali3 {
     boolean isPalindrome(String x){
